@@ -1,0 +1,134 @@
+.background-image {
+    background-image: url(../images/Rectangle1.jpg);
+    width: 100%;
+    height: 754px;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+/* FIRST SECTION */
+
+/* FIRST FLEX BOX */
+.main-wrapper {
+    background-color: lightseagreen;
+    text-align: center;
+    width: 90%;
+    margin: 120px auto 80px auto;
+}
+.main-wrapper h5 {
+    color: #000000;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+}
+.paragraph-item {
+    max-width: 994px;
+    width: 100%;
+    margin: 0 auto;
+    color: #000000;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    margin: 30px auto 50px auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 116px;
+    row-gap: 96px;
+}
+.flex-box {
+    background-color: lightblue;
+    width: 298px;
+}
+.title-image-container {
+    position: relative;
+    width: 76px;
+    transform-style: preserve-3d;
+    margin: 0 auto;
+
+}
+.title img {
+    Width: 47.5px;
+    Height: 57px;
+
+}
+.circle,
+.chart-pie-slice,
+.figma-logo {
+    width: 40px;
+    height: 40px;
+    background-color: #FF5391;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    transform: translateZ(-10px)
+}
+.chart-pie-slice {
+    background-color: #FF5353;
+}
+.figma-logo {
+    background-color: #FFBA53;
+}
+.star,
+.chart-bar {
+    width: 40px;
+    height: 40px;
+    background-color: #7553FF;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: -1px;
+    transform: translateZ(-10px)
+}
+.chart-bar {
+    background-color: #53ACFF;
+}
+.crown {
+    width: 40px;
+    height: 40px;
+    background-color: #53C1FF;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    transform: translateZ(-10px)
+}
+/* .figma-logo {
+    width: 40px;
+    height: 40px;
+    background-color: #FFBA53;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: 2px;
+    transform: translateZ(-10px)
+} */
+
+.flex-box h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.flex-box p {
+    color: #000000;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
