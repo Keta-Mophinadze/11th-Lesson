@@ -1,24 +1,72 @@
+/* Combined Class */
+.manrope {
+    font-family: 'Manrope';
+    font-style: normal;
+}
+.inter {
+    font-family: 'Inter';
+    font-style: normal;
+}
+/* Combined Class */
+
+/* HEADER */
 .background-image {
     background-image: url(../images/Rectangle1.jpg);
     width: 100%;
     height: 754px;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    padding-left: 100px;
 }
-/* FIRST SECTION */
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 35px;
+}
+.ul-li-item {
+    width: 366px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+.login-button {
+    background: #F84646;
+    width: 78px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.texts h1 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 82px;
+    margin-bottom: 102px;
+}
+.texts p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+/* HEADER */
 
-/* FIRST FLEX BOX */
+/* FIRST SECTION */
 .main-wrapper {
-    background-color: lightseagreen;
     text-align: center;
     width: 90%;
     margin: 120px auto 80px auto;
 }
 .main-wrapper h5 {
     color: #000000;
-    font-family: 'Manrope';
-    font-style: normal;
     font-weight: 800;
     font-size: 36px;
     line-height: 49px;
@@ -28,25 +76,13 @@
     width: 100%;
     margin: 0 auto;
     color: #000000;
-    font-family: 'Manrope';
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
     letter-spacing: 0.2px;
     margin: 30px auto 50px auto;
 }
-
-.flex-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    column-gap: 116px;
-    row-gap: 96px;
-}
 .flex-box {
-    background-color: lightblue;
     width: 298px;
 }
 .title-image-container {
@@ -54,12 +90,10 @@
     width: 76px;
     transform-style: preserve-3d;
     margin: 0 auto;
-
 }
 .title img {
     Width: 47.5px;
     Height: 57px;
-
 }
 .circle,
 .chart-pie-slice,
@@ -103,20 +137,7 @@
     right: -10px;
     transform: translateZ(-10px)
 }
-/* .figma-logo {
-    width: 40px;
-    height: 40px;
-    background-color: #FFBA53;
-    border-radius: 50%;
-    position: absolute;
-    top: -5px;
-    right: 2px;
-    transform: translateZ(-10px)
-} */
-
 .flex-box h1 {
-    font-family: 'Manrope';
-    font-style: normal;
     font-weight: 800;
     font-size: 36px;
     line-height: 49px;
@@ -125,10 +146,95 @@
 }
 .flex-box p {
     color: #000000;
-    font-family: 'Manrope';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.2px;
 }
+/* FIRST SECTION */
+
+/* SECOND SECTION */
+.second-section-container {
+    width: 90%;
+    margin: 174px auto 0 auto;
+}
+.upper-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.lower-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-side-block {
+    width: 608px;
+}
+.div-block-title {
+    color: #2E2E2E;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    margin: 0 auto;
+    width: 90%;
+}
+.div-block-paragraph {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 110px auto 80px auto;
+    width: 90%;
+}
+.add-button {
+    background-color: #F84646;
+    color: #fff;
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.right-section img {
+    width: 100%;
+}
+/* SECOND SECTION */
+
+/* FOOTER */
+.footer {
+    margin-top: 87px;
+    background-color: #F8464A;
+    padding: 80px 0 70px 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column-block h6,
+.copyright,
+.icons {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+.ul-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #E6E6E6;
+}
+.copyright {
+    width: 81%;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icons {
+    width: 224px;
+    display: flex;
+    justify-content: space-between;
+}
+/* FOOTER */
